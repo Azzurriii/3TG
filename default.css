@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: rgb(72, 69, 69);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.poster {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.member-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.member-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.member-info h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.member-info p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 3px solid #ffffff;
+}
+
+.profile-details {
+    max-width: 600px;
+}
+
+.profile-details h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.profile-details p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.profile-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.profile-details ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.profile-details ul li a:hover {
+    text-decoration: underline;
+}
+
+.back-link {
+    margin-top: 30px;
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.back-link:hover {
+    background-color: #bb2929;
+}
